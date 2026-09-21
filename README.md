@@ -2,7 +2,7 @@
 
 A tiny, button-driven pixel-art light built around a Raspberry Pi Pico W and an 8x8 WS2812B (NeoPixel) LED matrix. Tap the button to flip through emojis; hold it to switch between still and animated pictures. Built as a hands-on STEM project.
 
-![status](https://img.shields.io/badge/status-in--progress-yellow)
+![status](https://img.shields.io/badge/status-working-brightgreen)
 
 ## What's in here
 
@@ -13,7 +13,6 @@ A tiny, button-driven pixel-art light built around a Raspberry Pi Pico W and an 
 | [`WORKSHOP.md`](WORKSHOP.md) | A ~2 hour STEM lesson plan built around this project — wiring, coordinates, loops, state machines, 3D printing |
 | [`diffuser1-Body.stl`](diffuser1-Body.stl) | 3D-printable frame/case for the Pico + LED matrix (~94 x 84 x 63 mm) |
 | [`pixel-art-templates.pdf`](pixel-art-templates.pdf) | Printable 8x8 grid + colour-key worksheets for planning new emoji on paper before typing them in |
-| [`board-backup/main.py.from-board`](board-backup/main.py.from-board) | A pre-animation version of `main.py`, pulled off the physical board as a backup |
 
 ## Hardware
 
@@ -66,12 +65,12 @@ python -m mpremote connect COM4 exec "import machine; machine.reset()"
 
 ## Customising
 
-Add your own emoji by drawing an 8x8 grid of letters (see `PALETTE` in `main.py` for the colour key), then adding it to the `EMOJIS` list. See `GUIDE.md` Step 7 for the full how-to.
+Add your own emoji by drawing an 8x8 grid of letters (see `PALETTE` in `main.py` for the colour key, or print `pixel-art-templates.pdf`), then adding it to the `EMOJIS` list. See `GUIDE.md` Step 7 for the full how-to.
 
 ## Status
 
-The case (`diffuser1-Body.stl`) is a first-pass frame — print settings and fit are in `GUIDE.md`, but final assembly notes are still pending a test print.
+Tested and working on the physical board. The case (`diffuser1-Body.stl`) is a first-pass frame — print settings and fit are in `GUIDE.md`.
 
 ## License
 
-Personal / hobby project. No license specified yet — add one if you plan to make this repo public.
+[MIT](LICENSE) — do what you like with it.
