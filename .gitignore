@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Thonny / MicroPython
+.thonny/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Slicer output (keep the source STL, ignore generated gcode)
+*.gcode
