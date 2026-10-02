@@ -73,6 +73,8 @@ Tested and working on the physical board. The case (`diffuser1-Body.stl`) is a f
 
 ## License
 
-[CC BY 4.0](LICENSE) — use it, adapt it, teach with it; just credit Ben Docherty.
+Open source, credit required. The code (`main.py`) is under [Apache 2.0](LICENSE). The
+guide, workshop plan, templates and case design are under [CC BY 4.0](LICENSE-docs). Use them,
+adapt them, teach with them, and keep the [`NOTICE`](NOTICE) file or credit Ben Docherty.
 
-![CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)
+![code: Apache 2.0](https://img.shields.io/badge/code-Apache%202.0-blue.svg) ![docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey.svg)

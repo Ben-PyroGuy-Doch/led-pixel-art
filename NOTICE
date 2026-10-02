@@ -1,0 +1,14 @@
+LED Pixel Art - Pico W 8x8 Emoji Light
+Copyright (c) 2026 Ben Docherty
+https://github.com/Ben-PyroGuy-Doch/led-pixel-art
+
+CODE - Apache License 2.0 (see LICENSE)
+  main.py
+
+DOCUMENTATION AND TEACHING MATERIAL - CC BY 4.0 (see LICENSE-docs)
+  README.md, GUIDE.md, WORKSHOP.md, pixel-art-templates.pdf, diffuser1-Body.stl
+
+If you reuse or adapt any of this, keep this NOTICE file (Apache 2.0, section 4d)
+or credit it like this (CC BY 4.0):
+
+    "Based on LED Pixel Art - Pico W 8x8 Emoji Light by Ben Docherty (https://github.com/Ben-PyroGuy-Doch/led-pixel-art)"
