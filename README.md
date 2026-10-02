@@ -73,4 +73,6 @@ Tested and working on the physical board. The case (`diffuser1-Body.stl`) is a f
 
 ## License
 
-[MIT](LICENSE) — do what you like with it.
+[CC BY 4.0](LICENSE) — use it, adapt it, teach with it; just credit Ben Docherty.
+
+![CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)
